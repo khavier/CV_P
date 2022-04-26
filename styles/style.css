@@ -1,0 +1,22 @@
+.myContiner {
+    height: 100rem;
+    padding: 0;
+    margin: 0;
+}
+
+.myHeader {
+    background-image: url('../image/earth-1756274.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 33rem;
+    padding: 0;
+    margin: 0;
+    border-bottom-right-radius: 30%;
+    border-bottom-left-radius: 30%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
