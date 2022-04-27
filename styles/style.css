@@ -1,20 +1,68 @@
-.myContiner {
-    height: 100rem;
+#main-div {
     padding: 0;
-    margin: 0;
-}
-
-.myHeader {
-    background-image: url('../image/earth-1756274.jpg');
-    background-repeat: no-repeat;
+    height: 100rem;
+    background-color: lavender;
+    background-image: url('../image/stefan-stefancik--g7axSVst6Y-unsplash.jpg');
     background-size: cover;
     background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.Row1 {
+    /* background-color: blue; */
+    height: 20rem;
+    margin: 0;
+    padding:0 13rem;
+}
+.Row1 nav{
+    background-color: rgba(255, 255, 255, 0.438);
+}
+
+.Row2 {
     height: 30rem;
-    padding: 0;
+    padding:0 13rem;
+    margin: 0;
+    
+
+}
+.profile{
+    background-color: rgba(255, 255, 255, 0.774);
     margin: 0;
 }
 
-body {
+.Row3 {
+    background-color: yellow;
+    height: 10rem;
     margin: 0;
-    padding: 0;
+
+}
+
+.Row4 {
+    background-color: orangered;
+    height: 10rem;
+    margin: 0;
+
+}
+
+.Row5 {
+    background-color: green;
+    height: 10rem;
+    margin: 0;
+
+}
+
+/* ------------------------------------------------------- */
+@media (max-width:540px) {
+    #main-div {
+        background-image: url('../image/samuel-ferrara-dKJXkKCF2D8-unsplash.jpg');
+        background-size: 100% 33rem;
+    }
+    .Row1{
+        padding: 0;
+        margin: 0;
+    }
+    .Row2{
+        padding: 0; 
+        /* margin: 10px; */
+    }
 }
