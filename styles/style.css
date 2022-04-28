@@ -130,3 +130,10 @@
         padding: 0;
     }
 }
+
+
+/* -------------------------------- bg-blur from abolfazl */
+.bg-blur {
+    background: transparent;
+    backdrop-filter: blur(18px);
+}
