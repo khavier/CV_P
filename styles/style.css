@@ -1,7 +1,12 @@
+* {
+    box-sizing: border-box;
+    /* overflow: hidden; */
+}
+
 #main-div {
     padding: 0;
     height: 100rem;
-    background-color: lavender;
+    background-color: rgb(217, 217, 235);
     background-image: url('../image/stefan-stefancik--g7axSVst6Y-unsplash.jpg');
     background-size: cover;
     background-attachment: fixed;
@@ -12,22 +17,48 @@
     /* background-color: blue; */
     height: 20rem;
     margin: 0;
-    padding:0 13rem;
+    padding: 0 13rem;
 }
-.Row1 nav{
+
+.Row1 nav {
     background-color: rgba(255, 255, 255, 0.438);
 }
 
 .Row2 {
     height: 30rem;
-    padding:0 13rem;
+    padding: 0 13rem;
     margin: 0;
-    
-
 }
-.profile{
+
+.profile {
     background-color: rgba(255, 255, 255, 0.774);
     margin: 0;
+}
+
+.profileBox {
+    overflow: hidden;
+}
+.informationProfile{
+    width: 70%;
+}
+.ifoBox {
+    width: 100%;
+}
+
+.profileBox img {
+    height: 15rem;
+    border-radius: 50%;
+}
+
+.iconProfile a>i {
+    font-size: 1.2rem;
+    padding: .5rem;
+    color: #333;
+}
+
+.iconProfile a>i:hover {
+    font-size: 1.4rem;
+    color: #555;
 }
 
 .Row3 {
@@ -57,37 +88,45 @@
         background-image: none;
         background-size: 100% 33rem;
     }
-    .Row1{
+
+    .Row1 {
         padding: 12px;
         margin: 0;
+        height: 15rem;
+
     }
-    .Row2{
+
+    .Row2 {
         padding: 12px;
-        /* margin: 10px; */
+        height: 38rem;
     }
 }
+
 /* --------------------------------------- */
-@media (min-width:576px){
-    .Row1{
+@media (min-width:576px) {
+    .Row1 {
         padding: 0;
     }
-    .Row2{
+
+    .Row2 {
         padding: 12px;
-        /* margin: 5rem;  */
     }
 }
+
 /* -------------------------------- */
 @media (min-width:768px) {
-    .Row1{
+    .Row1 {
         padding: 0;
         margin: 0;
         height: 15rem;
     }
-    .Row2{
+
+    .Row2 {
         padding: 0;
-        margin: 5rem; 
+        margin: 5rem;
     }
-    #navbarDiv{
+
+    #navbarDiv {
         padding: 0;
     }
 }
