@@ -52,17 +52,42 @@
 }
 
 /* ------------------------------------------------------- */
-@media (max-width:540px) {
+@media (max-width:578px) {
     #main-div {
-        background-image: url('../image/samuel-ferrara-dKJXkKCF2D8-unsplash.jpg');
+        background-image: none;
         background-size: 100% 33rem;
     }
     .Row1{
-        padding: 0;
+        padding: 12px;
         margin: 0;
     }
     .Row2{
-        padding: 0; 
+        padding: 12px;
         /* margin: 10px; */
+    }
+}
+/* --------------------------------------- */
+@media (min-width:576px){
+    .Row1{
+        padding: 0;
+    }
+    .Row2{
+        padding: 12px;
+        /* margin: 5rem;  */
+    }
+}
+/* -------------------------------- */
+@media (min-width:768px) {
+    .Row1{
+        padding: 0;
+        margin: 0;
+        height: 15rem;
+    }
+    .Row2{
+        padding: 0;
+        margin: 5rem; 
+    }
+    #navbarDiv{
+        padding: 0;
     }
 }
